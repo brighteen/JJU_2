@@ -1,3 +1,6 @@
+# 필요한 라이브러리 설치
+# pip install -qU pypdf langchain_community pymupdf PyPDFium2 pdfminer.six
+
 from langchain_community.document_loaders import PyPDFLoader, PyMuPDFLoader, PyPDFium2Loader, PDFMinerLoader, PDFMinerPDFasHTMLLoader
 
 FILE_PATH = "./SPRI_AI_Brief_2023년12월호_F.pdf"
